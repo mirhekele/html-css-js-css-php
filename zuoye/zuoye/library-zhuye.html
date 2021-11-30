@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图书管理系统</title>
+</head>
+<style type="text/css">
+    .one{
+        text-align: center;
+        color: red;
+    }
+    .onee{
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+        border: 0px;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .onee:hover{
+        background-color: turquoise;
+    }
+    .two:hover{
+        background-color: turquoise;
+        cursor: pointer;
+    }
+    .two{
+
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        border: 0px;
+        outline: none;
+        background-color: transparent;
+    }
+    body{
+        background-image: url("2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    input{
+        border-radius: 20px;
+    }
+</style>
+<body>
+<h1 align="center">欢迎进入图书管理系统！</h1>
+<h2 align="center">请选择登录方式</h2>
+<div class="one">
+    <form action="guanliyuan-dl.php" method="post">
+        <input type="submit"class="onee" value="管理员登录">
+        <br>
+        <br>
+     </form>
+<form action="yonghu-dl.php" method="post">
+    <input type="submit"class="two" value="用户登录">
+</form>
+</div>
+</body>
+</html>
